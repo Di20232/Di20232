@@ -58,8 +58,8 @@ foco/
 <p align="center"><img src="./assets/title-projetos.svg" width="70%" alt="Projetos"></p>
 
 <p align="center">
-  <a href="https://github.com/Di20232/byteShop"><img src="./assets/card-byteShop.svg" width="49%" alt="ByteShop — e-commerce de peças de PC (Python, Vite, SQLite)"></a>
-  <a href="https://github.com/Di20232/mercadinho-seu-joao-2"><img src="./assets/card-mercadinho-seu-joao-2.svg" width="49%" alt="Contro Vend — vendas e estoque para pequeno comércio (JavaScript, HTML5, CSS3, PostgreSQL)"></a>
+  <a href="https://github.com/Di20232/byteShop"><img src="./assets/card-byteShop.svg" width="49%" alt="ByteShop — e-commerce de peças de PC (Python, FastAPI, React, TypeScript, Vite, SQLite)"></a>
+  <a href="https://github.com/Di20232/mercadinho-seu-joao-2"><img src="./assets/card-mercadinho-seu-joao-2.svg" width="49%" alt="Contro Vend — vendas e estoque para pequeno comércio (Node.js, Express, PostgreSQL, Prisma, JavaScript, HTML5, CSS3, Docker)"></a>
   <a href="https://github.com/Di20232/obsidian_v1"><img src="./assets/card-obsidian_v1.svg" width="49%" alt="Cofre Obsidian — segundo cérebro de estudos"></a>
   <a href="https://github.com/Di20232/exercises_python"><img src="./assets/card-exercises_python.svg" width="49%" alt="Exercícios Python — duas versões de cada exercício"></a>
 </p>

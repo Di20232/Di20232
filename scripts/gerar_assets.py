@@ -227,13 +227,17 @@ LANG_COLORS = {"Python": "#3572A5", "JavaScript": "#f1e05a", "Markdown": "#fffff
 
 
 def card(slug, title, desc_lines, tags, lang):
-    W, H = 430, 196
-    tag_svg, x = [], 24
+    W, H = 430, 232  # altura fixa: cabem até 2 linhas de etiquetas e os cards ficam alinhados
+    tag_svg, x, row = [], 24, 0
     for tg in tags:
         w = len(tg) * 7.6 + 18
+        if x + w > W - 24:  # quebra de linha
+            x, row = 24, row + 1
+            assert row < 2, f"etiquetas demais em {title}"
+        y = 150 + row * 30
         tag_svg.append(
-            f'<rect x="{x:.0f}" y="150" width="{w:.0f}" height="24" rx="5" fill="{BLUE}" fill-opacity=".13" stroke="{SKY}" stroke-opacity=".5"/>'
-            f'<text x="{x + w / 2:.0f}" y="166" text-anchor="middle" font-size="12" fill="{ICE}">{escape(tg)}</text>'
+            f'<rect x="{x:.0f}" y="{y}" width="{w:.0f}" height="24" rx="5" fill="{BLUE}" fill-opacity=".13" stroke="{SKY}" stroke-opacity=".5"/>'
+            f'<text x="{x + w / 2:.0f}" y="{y + 16}" text-anchor="middle" font-size="12" fill="{ICE}">{escape(tg)}</text>'
         )
         x += w + 8
     desc = "".join(
@@ -263,9 +267,9 @@ def card(slug, title, desc_lines, tags, lang):
 
 def cards():
     card("byteShop", "ByteShop", ["E-commerce de peças de PC e periféricos:", "catálogo, carrinho, checkout, login com JWT."],
-         ["Python", "Vite", "SQLite", "JWT"], "Python")
+         ["Python", "FastAPI", "SQLAlchemy", "SQLite", "JWT", "React", "TypeScript", "Vite", "Tailwind"], "Python")
     card("mercadinho-seu-joao-2", "Contro Vend", ["Vendas e estoque para pequeno comércio: caixa,", "previsão de esgotamento e alertas de validade."],
-         ["JavaScript", "HTML5", "CSS3", "PostgreSQL"], "JavaScript")
+         ["Node.js", "Express", "PostgreSQL", "Prisma", "JavaScript", "HTML5", "CSS3", "Docker"], "JavaScript")
     card("obsidian_v1", "Cofre Obsidian", ["Meu segundo cérebro: notas de Python, IA,", "GANs, segurança web e bancos de dados."],
          ["Obsidian", "Markdown", "Knowledge Base"], "Markdown")
     card("exercises_python", "Exercícios Python", ["Cada exercício em duas versões (dados x objetos)", "e um script que prova que as saídas são iguais."],
