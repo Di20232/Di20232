@@ -47,9 +47,7 @@ foco/
 <p align="center"><img src="./assets/title-tech.svg" width="70%" alt="Stack"></p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,js,ts,html,css,php,react&theme=dark" alt="Python, JavaScript, TypeScript, HTML, CSS, PHP, React"><br><br>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,vite,tailwind,bootstrap,pytorch&theme=dark" alt="Node.js, Express, FastAPI, Vite, Tailwind, Bootstrap, PyTorch"><br><br>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,prisma,docker,linux,bash,git,github,vscode&theme=dark" alt="PostgreSQL, MySQL, SQLite, Prisma, Docker, Linux, Bash, Git, GitHub, VS Code">
+  <img src="https://skillicons.dev/icons?i=py,html,css,php,vite,postgres,mysql,sqlite,git,github,vscode&theme=dark" alt="Python, HTML5, CSS3, PHP, Vite, PostgreSQL, MySQL, SQLite, Git, GitHub, VS Code"><img src="./assets/icon-claude.svg" height="48" alt="Claude"><img src="./assets/icon-chatgpt.svg" height="48" alt="ChatGPT">
 </p>
 
 <p align="center"><img src="./assets/divider.svg" width="60%"></p>
