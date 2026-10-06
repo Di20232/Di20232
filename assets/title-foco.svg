@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 110" width="800" height="110" role="img" aria-label="Foco Atual">
   <defs>
-    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#5776d9"/><stop offset=".5" stop-color="#7e98ee"/><stop offset="1" stop-color="#6b94d6"/></linearGradient>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#22c8f5"/><stop offset=".5" stop-color="#4d8dff"/><stop offset="1" stop-color="#7a6bff"/></linearGradient>
     
     <path id="petal" d="M0 10 C-7 4 -8 -4 -3 -9 L0 -6 L3 -9 C8 -4 7 4 0 10Z"/>
     <g id="flower">
       <use href="#petal" transform="rotate(0) translate(0 -9)"/><use href="#petal" transform="rotate(72) translate(0 -9)"/><use href="#petal" transform="rotate(144) translate(0 -9)"/><use href="#petal" transform="rotate(216) translate(0 -9)"/><use href="#petal" transform="rotate(288) translate(0 -9)"/>
       <circle r="3.2" fill="#f3f6ff"/>
-      <circle r="1.6" fill="#6a86e8"/>
+      <circle r="1.6" fill="#4d8dff"/>
     </g>
   </defs>
-  <text x="400" y="88" text-anchor="middle" font-family="'Noto Serif JP', 'Yu Mincho', 'Hiragino Mincho ProN', 'IPAMincho', 'Noto Sans JP', 'IPAGothic', serif" font-size="84" fill="#6a86e8" opacity=".13">現在</text>
+  <text x="400" y="88" text-anchor="middle" font-family="'Noto Serif JP', 'Yu Mincho', 'Hiragino Mincho ProN', 'IPAMincho', 'Noto Sans JP', 'IPAGothic', serif" font-size="84" fill="#4d8dff" opacity=".13">現在</text>
   <text x="400" y="62" text-anchor="middle" font-family="'Cormorant Garamond', 'Playfair Display', Georgia, 'Times New Roman', serif" font-size="40" font-weight="600" letter-spacing="3" fill="url(#g)">Foco Atual</text>
   <use href="#flower" fill="#9baef1" transform="translate(255.0 50) scale(.55)"/>
   <use href="#flower" fill="#9baef1" transform="translate(545.0 50) scale(.55)"/>

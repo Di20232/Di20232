@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 440" width="1280" height="440" role="img" aria-label="Diego S. Souza">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#040a0f"/>
-      <stop offset=".45" stop-color="#0f2133"/>
-      <stop offset=".75" stop-color="#1f334f"/>
-      <stop offset="1" stop-color="#44588a"/>
+      <stop offset="0" stop-color="#030717"/>
+      <stop offset=".4" stop-color="#0a1a52"/>
+      <stop offset=".72" stop-color="#1546a8"/>
+      <stop offset="1" stop-color="#2e9be0"/>
     </linearGradient>
     <radialGradient id="moon" cx=".42" cy=".4" r=".7">
       <stop offset="0" stop-color="#fafbff"/>
@@ -12,26 +12,26 @@
       <stop offset="1" stop-color="#c1cdf6"/>
     </radialGradient>
     <radialGradient id="halo">
-      <stop offset="0" stop-color="#d1dbff" stop-opacity=".55"/>
-      <stop offset=".35" stop-color="#a6b8f4" stop-opacity=".18"/>
-      <stop offset="1" stop-color="#a6b8f4" stop-opacity="0"/>
+      <stop offset="0" stop-color="#c8f0ff" stop-opacity=".6"/>
+      <stop offset=".35" stop-color="#5fc3ff" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="fuji" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#2a425c"/>
-      <stop offset="1" stop-color="#122336"/>
+      <stop offset="0" stop-color="#2a4f9c"/>
+      <stop offset="1" stop-color="#0b1b4a"/>
     </linearGradient>
     <linearGradient id="snow" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#f2f5fd"/>
       <stop offset="1" stop-color="#b6c4d8"/>
     </linearGradient>
     <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#d6dfff"/>
+      <stop offset="0" stop-color="#7fe0ff"/>
       <stop offset=".5" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#aabbf7"/>
+      <stop offset="1" stop-color="#8fa8ff"/>
     </linearGradient>
     <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#162940"/>
-      <stop offset="1" stop-color="#070e16"/>
+      <stop offset="0" stop-color="#1b5fb8"/>
+      <stop offset="1" stop-color="#050c24"/>
     </linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="4" result="b"/>
@@ -47,7 +47,7 @@
     <g id="flower">
       <use href="#petal" transform="rotate(0) translate(0 -9)"/><use href="#petal" transform="rotate(72) translate(0 -9)"/><use href="#petal" transform="rotate(144) translate(0 -9)"/><use href="#petal" transform="rotate(216) translate(0 -9)"/><use href="#petal" transform="rotate(288) translate(0 -9)"/>
       <circle r="3.2" fill="#f3f6ff"/>
-      <circle r="1.6" fill="#6a86e8"/>
+      <circle r="1.6" fill="#4d8dff"/>
     </g>
   </defs>
 
@@ -234,7 +234,7 @@
     <path d="M-38 42 Q0 30 38 42 L30 46 L-30 46 Z"/><rect x="-22" y="46" width="44" height="16"/>
     <path d="M-46 68 Q0 54 46 68 L37 72 L-37 72 Z"/><rect x="-26" y="72" width="52" height="18"/>
     <path d="M-54 96 Q0 80 54 96 L44 100 L-44 100 Z"/><rect x="-30" y="100" width="60" height="30"/>
-    <rect x="-5" y="112" width="10" height="18" fill="#aabbf7" opacity=".55"/>
+    <rect x="-5" y="112" width="10" height="18" fill="#8fc8ff" opacity=".55"/>
   </g>
 
   <!-- água com reflexo da lua -->
@@ -255,7 +255,7 @@
     <path d="M-10 -6 L-14 2 L-4 2 L-2 -6 Z M10 -6 L14 2 L4 2 L2 -6 Z"/>
     <line x1="-34" y1="-62" x2="44" y2="-38" stroke="#04090f" stroke-width="3.2" stroke-linecap="round"/>
     <line x1="18" y1="-45" x2="44" y2="-38" stroke="#2a375a" stroke-width="3.2" stroke-linecap="round"/>
-    <path fill="#6a86e8" opacity=".85">
+    <path fill="#4d8dff" opacity=".85">
       <animate attributeName="d" dur="3s" repeatCount="indefinite"
         values="M-8 -78 C-30 -80 -50 -74 -72 -82 C-60 -70 -40 -68 -10 -70 Z;
                 M-8 -78 C-30 -86 -52 -86 -76 -76 C-58 -66 -40 -72 -10 -70 Z;
@@ -268,90 +268,90 @@
     <animateTransform attributeName="transform" type="rotate" values="0 -20 40;1.2 -20 40;0 -20 40" dur="7s" repeatCount="indefinite"/>
     <path d="M-20 40 C80 60 150 50 230 95 C290 128 330 120 390 150" fill="none" stroke="#0f141d" stroke-width="9" stroke-linecap="round"/>
     <path d="M120 58 C140 30 170 20 205 12" fill="none" stroke="#0f141d" stroke-width="4.5" stroke-linecap="round"/><path d="M230 95 C250 70 275 62 300 58" fill="none" stroke="#0f141d" stroke-width="4.5" stroke-linecap="round"/><path d="M300 125 C320 160 340 175 370 190" fill="none" stroke="#0f141d" stroke-width="4.5" stroke-linecap="round"/><path d="M60 52 C70 80 90 100 115 120" fill="none" stroke="#0f141d" stroke-width="4.5" stroke-linecap="round"/>
-    <use href="#flower" fill="#bfccfb" transform="translate(51.2 62) rotate(7) scale(0.82)"/>
-<use href="#flower" fill="#9baef1" transform="translate(199.4 78.4) rotate(54) scale(0.67)"/>
-<use href="#flower" fill="#e4eaff" transform="translate(-3.4 55.8) rotate(50) scale(0.84)"/>
-<use href="#flower" fill="#9baef1" transform="translate(-15.4 44.3) rotate(15) scale(0.76)"/>
-<use href="#flower" fill="#d1dbff" transform="translate(124.4 76.5) rotate(47) scale(0.84)"/>
-<use href="#flower" fill="#9baef1" transform="translate(10.3 47.2) rotate(54) scale(0.80)"/>
-<use href="#flower" fill="#d1dbff" transform="translate(173.3 94.6) rotate(31) scale(0.67)"/>
-<use href="#flower" fill="#9baef1" transform="translate(-5.1 44.4) rotate(9) scale(0.77)"/>
-<use href="#flower" fill="#e4eaff" transform="translate(7.2 53.7) rotate(9) scale(0.79)"/>
-<use href="#flower" fill="#9baef1" transform="translate(354.4 147.6) rotate(63) scale(0.90)"/>
-<circle cx="321.6" cy="136.4" r="3.7" fill="#bfccfb"/>
-<circle cx="245.3" cy="102.5" r="4.6" fill="#9baef1"/>
-<circle cx="355.5" cy="130.1" r="3.4" fill="#bfccfb"/>
-<circle cx="301.1" cy="116.2" r="3.5" fill="#899fe8"/>
-<circle cx="241.5" cy="100.8" r="4.5" fill="#9baef1"/>
-<use href="#flower" fill="#e4eaff" transform="translate(193.7 30.6) rotate(22) scale(0.67)"/>
-<circle cx="137.3" cy="37.4" r="3.0" fill="#9baef1"/>
-<use href="#flower" fill="#899fe8" transform="translate(118.1 54.2) rotate(65) scale(1.03)"/>
-<use href="#flower" fill="#899fe8" transform="translate(300.9 66.6) rotate(71) scale(0.99)"/>
-<use href="#flower" fill="#e4eaff" transform="translate(254.6 69.4) rotate(26) scale(0.58)"/>
-<use href="#flower" fill="#9baef1" transform="translate(249.9 81.5) rotate(12) scale(0.83)"/>
-<use href="#flower" fill="#899fe8" transform="translate(369.6 174.7) rotate(32) scale(0.74)"/>
-<use href="#flower" fill="#aabbf7" transform="translate(369.7 186.4) rotate(61) scale(0.79)"/>
-<use href="#flower" fill="#899fe8" transform="translate(322.3 145.3) rotate(20) scale(0.68)"/>
-<use href="#flower" fill="#e4eaff" transform="translate(80.1 99.8) rotate(67) scale(0.90)"/>
-<circle cx="80.4" cy="60.8" r="3.8" fill="#aabbf7"/>
-<use href="#flower" fill="#9baef1" transform="translate(71.8 77.4) rotate(24) scale(0.87)"/>
+    <use href="#flower" fill="#93d5ff" transform="translate(51.2 62) rotate(7) scale(0.82)"/>
+<use href="#flower" fill="#5b8cff" transform="translate(199.4 78.4) rotate(54) scale(0.67)"/>
+<use href="#flower" fill="#e6f7ff" transform="translate(-3.4 55.8) rotate(50) scale(0.84)"/>
+<use href="#flower" fill="#5b8cff" transform="translate(-15.4 44.3) rotate(15) scale(0.76)"/>
+<use href="#flower" fill="#c2ebff" transform="translate(124.4 76.5) rotate(47) scale(0.84)"/>
+<use href="#flower" fill="#5b8cff" transform="translate(10.3 47.2) rotate(54) scale(0.80)"/>
+<use href="#flower" fill="#c2ebff" transform="translate(173.3 94.6) rotate(31) scale(0.67)"/>
+<use href="#flower" fill="#5b8cff" transform="translate(-5.1 44.4) rotate(9) scale(0.77)"/>
+<use href="#flower" fill="#e6f7ff" transform="translate(7.2 53.7) rotate(9) scale(0.79)"/>
+<use href="#flower" fill="#5b8cff" transform="translate(354.4 147.6) rotate(63) scale(0.90)"/>
+<circle cx="321.6" cy="136.4" r="3.7" fill="#93d5ff"/>
+<circle cx="245.3" cy="102.5" r="4.6" fill="#5b8cff"/>
+<circle cx="355.5" cy="130.1" r="3.4" fill="#93d5ff"/>
+<circle cx="301.1" cy="116.2" r="3.5" fill="#7b6dff"/>
+<circle cx="241.5" cy="100.8" r="4.5" fill="#5b8cff"/>
+<use href="#flower" fill="#e6f7ff" transform="translate(193.7 30.6) rotate(22) scale(0.67)"/>
+<circle cx="137.3" cy="37.4" r="3.0" fill="#5b8cff"/>
+<use href="#flower" fill="#7b6dff" transform="translate(118.1 54.2) rotate(65) scale(1.03)"/>
+<use href="#flower" fill="#7b6dff" transform="translate(300.9 66.6) rotate(71) scale(0.99)"/>
+<use href="#flower" fill="#e6f7ff" transform="translate(254.6 69.4) rotate(26) scale(0.58)"/>
+<use href="#flower" fill="#5b8cff" transform="translate(249.9 81.5) rotate(12) scale(0.83)"/>
+<use href="#flower" fill="#7b6dff" transform="translate(369.6 174.7) rotate(32) scale(0.74)"/>
+<use href="#flower" fill="#6cb4ff" transform="translate(369.7 186.4) rotate(61) scale(0.79)"/>
+<use href="#flower" fill="#7b6dff" transform="translate(322.3 145.3) rotate(20) scale(0.68)"/>
+<use href="#flower" fill="#e6f7ff" transform="translate(80.1 99.8) rotate(67) scale(0.90)"/>
+<circle cx="80.4" cy="60.8" r="3.8" fill="#6cb4ff"/>
+<use href="#flower" fill="#5b8cff" transform="translate(71.8 77.4) rotate(24) scale(0.87)"/>
   </g>
   <g>
     <animateTransform attributeName="transform" type="rotate" values="0 1300 18;-1.4 1300 18;0 1300 18" dur="8s" repeatCount="indefinite"/>
     <path d="M1300 18 C1240 30 1210 24 1160 48 C1130 62 1105 58 1075 70" fill="none" stroke="#0f141d" stroke-width="7" stroke-linecap="round"/>
     <path d="M1200 30 C1192 18 1186 8 1180 0" fill="none" stroke="#0f141d" stroke-width="3.5" stroke-linecap="round"/>
-    <use href="#flower" fill="#bfccfb" transform="translate(1196.1 48.9) rotate(3) scale(0.66)"/>
-<use href="#flower" fill="#bfccfb" transform="translate(1169.6 46.9) rotate(57) scale(0.69)"/>
-<circle cx="1193" cy="38" r="2.7" fill="#bfccfb"/>
-<use href="#flower" fill="#e4eaff" transform="translate(1259.7 16.5) rotate(61) scale(0.81)"/>
-<circle cx="1168.3" cy="49.3" r="2.8" fill="#899fe8"/>
-<use href="#flower" fill="#bfccfb" transform="translate(1100.5 64.6) rotate(11) scale(0.77)"/>
-<use href="#flower" fill="#899fe8" transform="translate(1105.1 62.7) rotate(20) scale(0.83)"/>
-<circle cx="1135.1" cy="42" r="4.5" fill="#aabbf7"/>
-<circle cx="1190.5" cy="10.9" r="2.9" fill="#aabbf7"/>
+    <use href="#flower" fill="#93d5ff" transform="translate(1196.1 48.9) rotate(3) scale(0.66)"/>
+<use href="#flower" fill="#93d5ff" transform="translate(1169.6 46.9) rotate(57) scale(0.69)"/>
+<circle cx="1193" cy="38" r="2.7" fill="#93d5ff"/>
+<use href="#flower" fill="#e6f7ff" transform="translate(1259.7 16.5) rotate(61) scale(0.81)"/>
+<circle cx="1168.3" cy="49.3" r="2.8" fill="#7b6dff"/>
+<use href="#flower" fill="#93d5ff" transform="translate(1100.5 64.6) rotate(11) scale(0.77)"/>
+<use href="#flower" fill="#7b6dff" transform="translate(1105.1 62.7) rotate(20) scale(0.83)"/>
+<circle cx="1135.1" cy="42" r="4.5" fill="#6cb4ff"/>
+<circle cx="1190.5" cy="10.9" r="2.9" fill="#6cb4ff"/>
   </g>
 
   <!-- nome -->
   <g text-anchor="middle">
-    <text x="640" y="78" font-family="'Noto Serif JP', 'Yu Mincho', 'Hiragino Mincho ProN', 'IPAMincho', 'Noto Sans JP', 'IPAGothic', serif" font-size="19" letter-spacing="12" fill="#aabbf7" opacity=".9">ディエゴ・ソウザ</text>
+    <text x="640" y="78" font-family="'Noto Serif JP', 'Yu Mincho', 'Hiragino Mincho ProN', 'IPAMincho', 'Noto Sans JP', 'IPAGothic', serif" font-size="19" letter-spacing="12" fill="#8fc8ff" opacity=".9">ディエゴ・ソウザ</text>
     <text x="640" y="156" font-family="'Cormorant Garamond', 'Playfair Display', Georgia, 'Times New Roman', serif" font-size="74" font-weight="600" letter-spacing="6" fill="url(#title)" filter="url(#glow)">Diego S. Souza</text>
-    <line x1="480" y1="184" x2="800" y2="184" stroke="#aabbf7" stroke-width="1" opacity=".6"/>
-    <use href="#flower" fill="#aabbf7" transform="translate(640 184) scale(.7)"/>
+    <line x1="480" y1="184" x2="800" y2="184" stroke="#8fc8ff" stroke-width="1" opacity=".6"/>
+    <use href="#flower" fill="#8fc8ff" transform="translate(640 184) scale(.7)"/>
     <text x="640" y="220" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="16" letter-spacing="5" fill="#dbe1f3">DESENVOLVEDOR FULL STACK  ·  IA  ·  BRASIL</text>
   </g>
 
-  <g><g opacity="0.89"><animateTransform attributeName="transform" type="translate" values="736.5 -30;775.3 70;760.5 170;743.1 270;759.1 370;830.7 470" dur="11.6s" begin="-8.6s" repeatCount="indefinite"/><use href="#petal" fill="#899fe8" transform="scale(0.72)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5.0s" begin="-8.6s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.80"><animateTransform attributeName="transform" type="translate" values="1310.2 -30;1400.5 70;1398.2 170;1351.7 270;1409.9 370;1492 470" dur="9.7s" begin="-4.6s" repeatCount="indefinite"/><use href="#petal" fill="#bfccfb" transform="scale(1.09)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.5s" begin="-4.6s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.90"><animateTransform attributeName="transform" type="translate" values="798.5 -30;856.8 70;845.5 170;821.8 270;866.6 370;907.4 470" dur="14.4s" begin="-9.6s" repeatCount="indefinite"/><use href="#petal" fill="#e4eaff" transform="scale(0.60)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.2s" begin="-9.6s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.73"><animateTransform attributeName="transform" type="translate" values="484.4 -30;527.2 70;503.2 170;491.1 270;512.8 370;592.4 470" dur="13.3s" begin="-1.0s" repeatCount="indefinite"/><use href="#petal" fill="#899fe8" transform="scale(0.62)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="6.0s" begin="-1.0s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.92"><animateTransform attributeName="transform" type="translate" values="869.4 -30;944.4 70;892.9 170;860.1 270;890.6 370;983.4 470" dur="11.9s" begin="-0.6s" repeatCount="indefinite"/><use href="#petal" fill="#aabbf7" transform="scale(1.05)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.3s" begin="-0.6s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.75"><animateTransform attributeName="transform" type="translate" values="1092.6 -30;1114.7 70;1083.4 170;1079.5 270;1090 370;1129.2 470" dur="11.8s" begin="-10.5s" repeatCount="indefinite"/><use href="#petal" fill="#d1dbff" transform="scale(0.88)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.5s" begin="-10.5s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.92"><animateTransform attributeName="transform" type="translate" values="211.6 -30;273.5 70;281.7 170;214.9 270;253.8 370;364.8 470" dur="9.5s" begin="-3.6s" repeatCount="indefinite"/><use href="#petal" fill="#e4eaff" transform="scale(1.05)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="4.9s" begin="-3.6s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.72"><animateTransform attributeName="transform" type="translate" values="1113.3 -30;1152.5 70;1155.2 170;1129.3 270;1165.6 370;1239.1 470" dur="10.1s" begin="-8.0s" repeatCount="indefinite"/><use href="#petal" fill="#d1dbff" transform="scale(0.73)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5.2s" begin="-8.0s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.77"><animateTransform attributeName="transform" type="translate" values="1183.5 -30;1234.1 70;1238.6 170;1239.3 270;1271.1 370;1331.8 470" dur="9.3s" begin="-5.2s" repeatCount="indefinite"/><use href="#petal" fill="#aabbf7" transform="scale(1.05)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.1s" begin="-5.2s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.76"><animateTransform attributeName="transform" type="translate" values="671.5 -30;703.8 70;672.8 170;655.5 270;685.1 370;741.6 470" dur="10.3s" begin="-0.0s" repeatCount="indefinite"/><use href="#petal" fill="#aabbf7" transform="scale(1.19)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="5.4s" begin="-0.0s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.95"><animateTransform attributeName="transform" type="translate" values="689.8 -30;726.1 70;668.8 170;626.1 270;670.3 370;770.5 470" dur="13.6s" begin="-0.6s" repeatCount="indefinite"/><use href="#petal" fill="#e4eaff" transform="scale(0.68)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5.2s" begin="-0.6s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.92"><animateTransform attributeName="transform" type="translate" values="1079.6 -30;1158.9 70;1108.1 170;1114.8 270;1134.8 370;1265 470" dur="10.4s" begin="-10.2s" repeatCount="indefinite"/><use href="#petal" fill="#bfccfb" transform="scale(0.90)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.8s" begin="-10.2s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.70"><animateTransform attributeName="transform" type="translate" values="1085.9 -30;1117.9 70;1117 170;1087.3 270;1095.9 370;1168.5 470" dur="10.0s" begin="-5.0s" repeatCount="indefinite"/><use href="#petal" fill="#aabbf7" transform="scale(1.15)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="5.4s" begin="-5.0s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.76"><animateTransform attributeName="transform" type="translate" values="151.7 -30;192 70;191.3 170;116.3 270;164.1 370;247.8 470" dur="12.7s" begin="-8.1s" repeatCount="indefinite"/><use href="#petal" fill="#bfccfb" transform="scale(0.82)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="4.1s" begin="-8.1s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.65"><animateTransform attributeName="transform" type="translate" values="174.2 -30;241.4 70;237.3 170;199.1 270;262.9 370;356 470" dur="11.3s" begin="-0.9s" repeatCount="indefinite"/><use href="#petal" fill="#899fe8" transform="scale(0.74)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="3.1s" begin="-0.9s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.72"><animateTransform attributeName="transform" type="translate" values="177.8 -30;235.9 70;222.7 170;158.1 270;156.6 370;225.9 470" dur="13.3s" begin="-5.8s" repeatCount="indefinite"/><use href="#petal" fill="#9baef1" transform="scale(0.91)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="4.8s" begin="-5.8s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.94"><animateTransform attributeName="transform" type="translate" values="768.7 -30;822.3 70;837.9 170;823 270;871.4 370;935.4 470" dur="10.4s" begin="-6.5s" repeatCount="indefinite"/><use href="#petal" fill="#bfccfb" transform="scale(0.88)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="3.2s" begin="-6.5s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.92"><animateTransform attributeName="transform" type="translate" values="1101 -30;1148.3 70;1147.8 170;1104.5 270;1109 370;1188.1 470" dur="15.2s" begin="-9.1s" repeatCount="indefinite"/><use href="#petal" fill="#e4eaff" transform="scale(0.95)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.3s" begin="-9.1s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.81"><animateTransform attributeName="transform" type="translate" values="822.3 -30;864.7 70;840.8 170;819.6 270;842 370;938.6 470" dur="13.6s" begin="-2.7s" repeatCount="indefinite"/><use href="#petal" fill="#899fe8" transform="scale(0.85)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="4.1s" begin="-2.7s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.67"><animateTransform attributeName="transform" type="translate" values="562.3 -30;616.9 70;633.6 170;616.7 270;670.8 370;740.1 470" dur="15.4s" begin="-1.2s" repeatCount="indefinite"/><use href="#petal" fill="#899fe8" transform="scale(0.99)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="4.9s" begin="-1.2s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.87"><animateTransform attributeName="transform" type="translate" values="913.6 -30;951.4 70;948.9 170;947.2 270;991.7 370;1063.8 470" dur="13.8s" begin="-12.7s" repeatCount="indefinite"/><use href="#petal" fill="#d1dbff" transform="scale(1.18)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.0s" begin="-12.7s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.72"><animateTransform attributeName="transform" type="translate" values="1190 -30;1223.7 70;1214.7 170;1177.8 270;1227.2 370;1320.5 470" dur="11.3s" begin="-2.7s" repeatCount="indefinite"/><use href="#petal" fill="#899fe8" transform="scale(1.14)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="5.7s" begin="-2.7s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.84"><animateTransform attributeName="transform" type="translate" values="1037 -30;1073.3 70;1065.6 170;1027 270;1051.2 370;1078.3 470" dur="11.7s" begin="-6.9s" repeatCount="indefinite"/><use href="#petal" fill="#899fe8" transform="scale(0.94)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.1s" begin="-6.9s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.71"><animateTransform attributeName="transform" type="translate" values="69.5 -30;115.1 70;105.6 170;111.6 270;158.3 370;219.5 470" dur="9.3s" begin="-8.0s" repeatCount="indefinite"/><use href="#petal" fill="#d1dbff" transform="scale(1.06)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.1s" begin="-8.0s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.76"><animateTransform attributeName="transform" type="translate" values="1278 -30;1332 70;1287.7 170;1264.3 270;1295.4 370;1386.3 470" dur="15.4s" begin="-11.6s" repeatCount="indefinite"/><use href="#petal" fill="#e4eaff" transform="scale(0.65)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="5.8s" begin="-11.6s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.66"><animateTransform attributeName="transform" type="translate" values="40.6 -30;92.6 70;56.4 170;52.2 270;68.5 370;128.1 470" dur="14.3s" begin="-13.0s" repeatCount="indefinite"/><use href="#petal" fill="#899fe8" transform="scale(1.06)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="4.7s" begin="-13.0s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.83"><animateTransform attributeName="transform" type="translate" values="944.3 -30;992.6 70;996.9 170;956.3 270;972.9 370;1063 470" dur="14.8s" begin="-8.5s" repeatCount="indefinite"/><use href="#petal" fill="#aabbf7" transform="scale(0.77)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5.9s" begin="-8.5s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.75"><animateTransform attributeName="transform" type="translate" values="671.7 -30;728.7 70;678.4 170;640.8 270;697.2 370;764.2 470" dur="13.0s" begin="-2.1s" repeatCount="indefinite"/><use href="#petal" fill="#899fe8" transform="scale(1.09)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.3s" begin="-2.1s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.81"><animateTransform attributeName="transform" type="translate" values="1238.9 -30;1293.4 70;1261.1 170;1234.8 270;1275.8 370;1339.3 470" dur="15.2s" begin="-11.4s" repeatCount="indefinite"/><use href="#petal" fill="#d1dbff" transform="scale(0.85)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="5.3s" begin="-11.4s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.79"><animateTransform attributeName="transform" type="translate" values="1003.7 -30;1041.4 70;1054.7 170;1040.8 270;1082.1 370;1142.7 470" dur="13.5s" begin="-4.7s" repeatCount="indefinite"/><use href="#petal" fill="#bfccfb" transform="scale(0.80)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5.7s" begin="-4.7s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.94"><animateTransform attributeName="transform" type="translate" values="293.4 -30;358.1 70;325.7 170;261.2 270;274.4 370;362.4 470" dur="10.3s" begin="-3.1s" repeatCount="indefinite"/><use href="#petal" fill="#bfccfb" transform="scale(1.02)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5.2s" begin="-3.1s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.66"><animateTransform attributeName="transform" type="translate" values="144.8 -30;194.3 70;181.6 170;113.6 270;143.5 370;248 470" dur="15.7s" begin="-1.6s" repeatCount="indefinite"/><use href="#petal" fill="#aabbf7" transform="scale(0.83)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="4.2s" begin="-1.6s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.85"><animateTransform attributeName="transform" type="translate" values="1061.8 -30;1092.8 70;1053.4 170;1024.2 270;1047.7 370;1117.7 470" dur="13.9s" begin="-6.9s" repeatCount="indefinite"/><use href="#petal" fill="#d1dbff" transform="scale(0.98)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="5.0s" begin="-6.9s" repeatCount="indefinite" additive="sum"/></use></g>
-<g opacity="0.90"><animateTransform attributeName="transform" type="translate" values="1167.4 -30;1197.6 70;1173.1 170;1153.4 270;1169.3 370;1221.4 470" dur="13.5s" begin="-7.9s" repeatCount="indefinite"/><use href="#petal" fill="#bfccfb" transform="scale(0.74)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.4s" begin="-7.9s" repeatCount="indefinite" additive="sum"/></use></g></g>
+  <g><g opacity="0.89"><animateTransform attributeName="transform" type="translate" values="736.5 -30;775.3 70;760.5 170;743.1 270;759.1 370;830.7 470" dur="11.6s" begin="-8.6s" repeatCount="indefinite"/><use href="#petal" fill="#7b6dff" transform="scale(0.72)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5.0s" begin="-8.6s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.80"><animateTransform attributeName="transform" type="translate" values="1310.2 -30;1400.5 70;1398.2 170;1351.7 270;1409.9 370;1492 470" dur="9.7s" begin="-4.6s" repeatCount="indefinite"/><use href="#petal" fill="#93d5ff" transform="scale(1.09)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.5s" begin="-4.6s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.90"><animateTransform attributeName="transform" type="translate" values="798.5 -30;856.8 70;845.5 170;821.8 270;866.6 370;907.4 470" dur="14.4s" begin="-9.6s" repeatCount="indefinite"/><use href="#petal" fill="#e6f7ff" transform="scale(0.60)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.2s" begin="-9.6s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.73"><animateTransform attributeName="transform" type="translate" values="484.4 -30;527.2 70;503.2 170;491.1 270;512.8 370;592.4 470" dur="13.3s" begin="-1.0s" repeatCount="indefinite"/><use href="#petal" fill="#7b6dff" transform="scale(0.62)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="6.0s" begin="-1.0s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.92"><animateTransform attributeName="transform" type="translate" values="869.4 -30;944.4 70;892.9 170;860.1 270;890.6 370;983.4 470" dur="11.9s" begin="-0.6s" repeatCount="indefinite"/><use href="#petal" fill="#6cb4ff" transform="scale(1.05)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.3s" begin="-0.6s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.75"><animateTransform attributeName="transform" type="translate" values="1092.6 -30;1114.7 70;1083.4 170;1079.5 270;1090 370;1129.2 470" dur="11.8s" begin="-10.5s" repeatCount="indefinite"/><use href="#petal" fill="#c2ebff" transform="scale(0.88)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.5s" begin="-10.5s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.92"><animateTransform attributeName="transform" type="translate" values="211.6 -30;273.5 70;281.7 170;214.9 270;253.8 370;364.8 470" dur="9.5s" begin="-3.6s" repeatCount="indefinite"/><use href="#petal" fill="#e6f7ff" transform="scale(1.05)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="4.9s" begin="-3.6s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.72"><animateTransform attributeName="transform" type="translate" values="1113.3 -30;1152.5 70;1155.2 170;1129.3 270;1165.6 370;1239.1 470" dur="10.1s" begin="-8.0s" repeatCount="indefinite"/><use href="#petal" fill="#c2ebff" transform="scale(0.73)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5.2s" begin="-8.0s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.77"><animateTransform attributeName="transform" type="translate" values="1183.5 -30;1234.1 70;1238.6 170;1239.3 270;1271.1 370;1331.8 470" dur="9.3s" begin="-5.2s" repeatCount="indefinite"/><use href="#petal" fill="#6cb4ff" transform="scale(1.05)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.1s" begin="-5.2s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.76"><animateTransform attributeName="transform" type="translate" values="671.5 -30;703.8 70;672.8 170;655.5 270;685.1 370;741.6 470" dur="10.3s" begin="-0.0s" repeatCount="indefinite"/><use href="#petal" fill="#6cb4ff" transform="scale(1.19)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="5.4s" begin="-0.0s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.95"><animateTransform attributeName="transform" type="translate" values="689.8 -30;726.1 70;668.8 170;626.1 270;670.3 370;770.5 470" dur="13.6s" begin="-0.6s" repeatCount="indefinite"/><use href="#petal" fill="#e6f7ff" transform="scale(0.68)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5.2s" begin="-0.6s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.92"><animateTransform attributeName="transform" type="translate" values="1079.6 -30;1158.9 70;1108.1 170;1114.8 270;1134.8 370;1265 470" dur="10.4s" begin="-10.2s" repeatCount="indefinite"/><use href="#petal" fill="#93d5ff" transform="scale(0.90)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.8s" begin="-10.2s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.70"><animateTransform attributeName="transform" type="translate" values="1085.9 -30;1117.9 70;1117 170;1087.3 270;1095.9 370;1168.5 470" dur="10.0s" begin="-5.0s" repeatCount="indefinite"/><use href="#petal" fill="#6cb4ff" transform="scale(1.15)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="5.4s" begin="-5.0s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.76"><animateTransform attributeName="transform" type="translate" values="151.7 -30;192 70;191.3 170;116.3 270;164.1 370;247.8 470" dur="12.7s" begin="-8.1s" repeatCount="indefinite"/><use href="#petal" fill="#93d5ff" transform="scale(0.82)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="4.1s" begin="-8.1s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.65"><animateTransform attributeName="transform" type="translate" values="174.2 -30;241.4 70;237.3 170;199.1 270;262.9 370;356 470" dur="11.3s" begin="-0.9s" repeatCount="indefinite"/><use href="#petal" fill="#7b6dff" transform="scale(0.74)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="3.1s" begin="-0.9s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.72"><animateTransform attributeName="transform" type="translate" values="177.8 -30;235.9 70;222.7 170;158.1 270;156.6 370;225.9 470" dur="13.3s" begin="-5.8s" repeatCount="indefinite"/><use href="#petal" fill="#5b8cff" transform="scale(0.91)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="4.8s" begin="-5.8s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.94"><animateTransform attributeName="transform" type="translate" values="768.7 -30;822.3 70;837.9 170;823 270;871.4 370;935.4 470" dur="10.4s" begin="-6.5s" repeatCount="indefinite"/><use href="#petal" fill="#93d5ff" transform="scale(0.88)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="3.2s" begin="-6.5s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.92"><animateTransform attributeName="transform" type="translate" values="1101 -30;1148.3 70;1147.8 170;1104.5 270;1109 370;1188.1 470" dur="15.2s" begin="-9.1s" repeatCount="indefinite"/><use href="#petal" fill="#e6f7ff" transform="scale(0.95)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.3s" begin="-9.1s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.81"><animateTransform attributeName="transform" type="translate" values="822.3 -30;864.7 70;840.8 170;819.6 270;842 370;938.6 470" dur="13.6s" begin="-2.7s" repeatCount="indefinite"/><use href="#petal" fill="#7b6dff" transform="scale(0.85)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="4.1s" begin="-2.7s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.67"><animateTransform attributeName="transform" type="translate" values="562.3 -30;616.9 70;633.6 170;616.7 270;670.8 370;740.1 470" dur="15.4s" begin="-1.2s" repeatCount="indefinite"/><use href="#petal" fill="#7b6dff" transform="scale(0.99)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="4.9s" begin="-1.2s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.87"><animateTransform attributeName="transform" type="translate" values="913.6 -30;951.4 70;948.9 170;947.2 270;991.7 370;1063.8 470" dur="13.8s" begin="-12.7s" repeatCount="indefinite"/><use href="#petal" fill="#c2ebff" transform="scale(1.18)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.0s" begin="-12.7s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.72"><animateTransform attributeName="transform" type="translate" values="1190 -30;1223.7 70;1214.7 170;1177.8 270;1227.2 370;1320.5 470" dur="11.3s" begin="-2.7s" repeatCount="indefinite"/><use href="#petal" fill="#7b6dff" transform="scale(1.14)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="5.7s" begin="-2.7s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.84"><animateTransform attributeName="transform" type="translate" values="1037 -30;1073.3 70;1065.6 170;1027 270;1051.2 370;1078.3 470" dur="11.7s" begin="-6.9s" repeatCount="indefinite"/><use href="#petal" fill="#7b6dff" transform="scale(0.94)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.1s" begin="-6.9s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.71"><animateTransform attributeName="transform" type="translate" values="69.5 -30;115.1 70;105.6 170;111.6 270;158.3 370;219.5 470" dur="9.3s" begin="-8.0s" repeatCount="indefinite"/><use href="#petal" fill="#c2ebff" transform="scale(1.06)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.1s" begin="-8.0s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.76"><animateTransform attributeName="transform" type="translate" values="1278 -30;1332 70;1287.7 170;1264.3 270;1295.4 370;1386.3 470" dur="15.4s" begin="-11.6s" repeatCount="indefinite"/><use href="#petal" fill="#e6f7ff" transform="scale(0.65)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="5.8s" begin="-11.6s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.66"><animateTransform attributeName="transform" type="translate" values="40.6 -30;92.6 70;56.4 170;52.2 270;68.5 370;128.1 470" dur="14.3s" begin="-13.0s" repeatCount="indefinite"/><use href="#petal" fill="#7b6dff" transform="scale(1.06)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="4.7s" begin="-13.0s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.83"><animateTransform attributeName="transform" type="translate" values="944.3 -30;992.6 70;996.9 170;956.3 270;972.9 370;1063 470" dur="14.8s" begin="-8.5s" repeatCount="indefinite"/><use href="#petal" fill="#6cb4ff" transform="scale(0.77)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5.9s" begin="-8.5s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.75"><animateTransform attributeName="transform" type="translate" values="671.7 -30;728.7 70;678.4 170;640.8 270;697.2 370;764.2 470" dur="13.0s" begin="-2.1s" repeatCount="indefinite"/><use href="#petal" fill="#7b6dff" transform="scale(1.09)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.3s" begin="-2.1s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.81"><animateTransform attributeName="transform" type="translate" values="1238.9 -30;1293.4 70;1261.1 170;1234.8 270;1275.8 370;1339.3 470" dur="15.2s" begin="-11.4s" repeatCount="indefinite"/><use href="#petal" fill="#c2ebff" transform="scale(0.85)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="5.3s" begin="-11.4s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.79"><animateTransform attributeName="transform" type="translate" values="1003.7 -30;1041.4 70;1054.7 170;1040.8 270;1082.1 370;1142.7 470" dur="13.5s" begin="-4.7s" repeatCount="indefinite"/><use href="#petal" fill="#93d5ff" transform="scale(0.80)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5.7s" begin="-4.7s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.94"><animateTransform attributeName="transform" type="translate" values="293.4 -30;358.1 70;325.7 170;261.2 270;274.4 370;362.4 470" dur="10.3s" begin="-3.1s" repeatCount="indefinite"/><use href="#petal" fill="#93d5ff" transform="scale(1.02)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5.2s" begin="-3.1s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.66"><animateTransform attributeName="transform" type="translate" values="144.8 -30;194.3 70;181.6 170;113.6 270;143.5 370;248 470" dur="15.7s" begin="-1.6s" repeatCount="indefinite"/><use href="#petal" fill="#6cb4ff" transform="scale(0.83)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="4.2s" begin="-1.6s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.85"><animateTransform attributeName="transform" type="translate" values="1061.8 -30;1092.8 70;1053.4 170;1024.2 270;1047.7 370;1117.7 470" dur="13.9s" begin="-6.9s" repeatCount="indefinite"/><use href="#petal" fill="#c2ebff" transform="scale(0.98)"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="5.0s" begin="-6.9s" repeatCount="indefinite" additive="sum"/></use></g>
+<g opacity="0.90"><animateTransform attributeName="transform" type="translate" values="1167.4 -30;1197.6 70;1173.1 170;1153.4 270;1169.3 370;1221.4 470" dur="13.5s" begin="-7.9s" repeatCount="indefinite"/><use href="#petal" fill="#93d5ff" transform="scale(0.74)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.4s" begin="-7.9s" repeatCount="indefinite" additive="sum"/></use></g></g>
 </svg>

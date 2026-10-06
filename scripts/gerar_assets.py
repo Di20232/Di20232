@@ -12,7 +12,7 @@ from xml.sax.saxutils import escape
 OUT = Path(sys.argv[1] if len(sys.argv) > 1 else Path(__file__).resolve().parent.parent) / "assets"
 OUT.mkdir(parents=True, exist_ok=True)
 
-PINKS = ["#e4eaff", "#d1dbff", "#bfccfb", "#aabbf7", "#9baef1", "#899fe8"]
+PINKS = ["#e6f7ff", "#c2ebff", "#93d5ff", "#6cb4ff", "#5b8cff", "#7b6dff"]
 SERIF = "'Cormorant Garamond', 'Playfair Display', Georgia, 'Times New Roman', serif"
 SANS = "'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif"
 MONO = "'JetBrains Mono', 'Fira Code', Consolas, 'DejaVu Sans Mono', monospace"
@@ -31,7 +31,7 @@ def petal_defs():
     <g id="flower">
       {''.join(f'<use href="#petal" transform="rotate({a}) translate(0 -9)"/>' for a in range(0, 360, 72))}
       <circle r="3.2" fill="#f3f6ff"/>
-      <circle r="1.6" fill="#6a86e8"/>
+      <circle r="1.6" fill="#4d8dff"/>
     </g>"""
 
 
@@ -127,10 +127,10 @@ def banner():
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Diego S. Souza">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#040a0f"/>
-      <stop offset=".45" stop-color="#0f2133"/>
-      <stop offset=".75" stop-color="#1f334f"/>
-      <stop offset="1" stop-color="#44588a"/>
+      <stop offset="0" stop-color="#030717"/>
+      <stop offset=".4" stop-color="#0a1a52"/>
+      <stop offset=".72" stop-color="#1546a8"/>
+      <stop offset="1" stop-color="#2e9be0"/>
     </linearGradient>
     <radialGradient id="moon" cx=".42" cy=".4" r=".7">
       <stop offset="0" stop-color="#fafbff"/>
@@ -138,26 +138,26 @@ def banner():
       <stop offset="1" stop-color="#c1cdf6"/>
     </radialGradient>
     <radialGradient id="halo">
-      <stop offset="0" stop-color="#d1dbff" stop-opacity=".55"/>
-      <stop offset=".35" stop-color="#a6b8f4" stop-opacity=".18"/>
-      <stop offset="1" stop-color="#a6b8f4" stop-opacity="0"/>
+      <stop offset="0" stop-color="#c8f0ff" stop-opacity=".6"/>
+      <stop offset=".35" stop-color="#5fc3ff" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="fuji" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#2a425c"/>
-      <stop offset="1" stop-color="#122336"/>
+      <stop offset="0" stop-color="#2a4f9c"/>
+      <stop offset="1" stop-color="#0b1b4a"/>
     </linearGradient>
     <linearGradient id="snow" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#f2f5fd"/>
       <stop offset="1" stop-color="#b6c4d8"/>
     </linearGradient>
     <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#d6dfff"/>
+      <stop offset="0" stop-color="#7fe0ff"/>
       <stop offset=".5" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#aabbf7"/>
+      <stop offset="1" stop-color="#8fa8ff"/>
     </linearGradient>
     <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#162940"/>
-      <stop offset="1" stop-color="#070e16"/>
+      <stop offset="0" stop-color="#1b5fb8"/>
+      <stop offset="1" stop-color="#050c24"/>
     </linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="4" result="b"/>
@@ -215,7 +215,7 @@ def banner():
     <path d="M-38 42 Q0 30 38 42 L30 46 L-30 46 Z"/><rect x="-22" y="46" width="44" height="16"/>
     <path d="M-46 68 Q0 54 46 68 L37 72 L-37 72 Z"/><rect x="-26" y="72" width="52" height="18"/>
     <path d="M-54 96 Q0 80 54 96 L44 100 L-44 100 Z"/><rect x="-30" y="100" width="60" height="30"/>
-    <rect x="-5" y="112" width="10" height="18" fill="#aabbf7" opacity=".55"/>
+    <rect x="-5" y="112" width="10" height="18" fill="#8fc8ff" opacity=".55"/>
   </g>
 
   <!-- água com reflexo da lua -->
@@ -236,7 +236,7 @@ def banner():
     <path d="M-10 -6 L-14 2 L-4 2 L-2 -6 Z M10 -6 L14 2 L4 2 L2 -6 Z"/>
     <line x1="-34" y1="-62" x2="44" y2="-38" stroke="#04090f" stroke-width="3.2" stroke-linecap="round"/>
     <line x1="18" y1="-45" x2="44" y2="-38" stroke="#2a375a" stroke-width="3.2" stroke-linecap="round"/>
-    <path fill="#6a86e8" opacity=".85">
+    <path fill="#4d8dff" opacity=".85">
       <animate attributeName="d" dur="3s" repeatCount="indefinite"
         values="M-8 -78 C-30 -80 -50 -74 -72 -82 C-60 -70 -40 -68 -10 -70 Z;
                 M-8 -78 C-30 -86 -52 -86 -76 -76 C-58 -66 -40 -72 -10 -70 Z;
@@ -260,10 +260,10 @@ def banner():
 
   <!-- nome -->
   <g text-anchor="middle">
-    <text x="640" y="78" font-family="{JP}" font-size="19" letter-spacing="12" fill="#aabbf7" opacity=".9">ディエゴ・ソウザ</text>
+    <text x="640" y="78" font-family="{JP}" font-size="19" letter-spacing="12" fill="#8fc8ff" opacity=".9">ディエゴ・ソウザ</text>
     <text x="640" y="156" font-family="{SERIF}" font-size="74" font-weight="600" letter-spacing="6" fill="url(#title)" filter="url(#glow)">Diego S. Souza</text>
-    <line x1="480" y1="184" x2="800" y2="184" stroke="#aabbf7" stroke-width="1" opacity=".6"/>
-    <use href="#flower" fill="#aabbf7" transform="translate(640 184) scale(.7)"/>
+    <line x1="480" y1="184" x2="800" y2="184" stroke="#8fc8ff" stroke-width="1" opacity=".6"/>
+    <use href="#flower" fill="#8fc8ff" transform="translate(640 184) scale(.7)"/>
     <text x="640" y="220" font-family="{SANS}" font-size="16" letter-spacing="5" fill="#dbe1f3">DESENVOLVEDOR FULL STACK  ·  IA  ·  BRASIL</text>
   </g>
 
@@ -334,9 +334,9 @@ def tree():
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Cerejeira">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#081420"/>
-      <stop offset=".6" stop-color="#172c45"/>
-      <stop offset="1" stop-color="#3a4a6e"/>
+      <stop offset="0" stop-color="#040a24"/>
+      <stop offset=".55" stop-color="#0f2c78"/>
+      <stop offset="1" stop-color="#2a8fe0"/>
     </linearGradient>
     <radialGradient id="moon2" cx=".45" cy=".4" r=".7">
       <stop offset="0" stop-color="#fafbff"/><stop offset="1" stop-color="#c1cdf6"/>
@@ -376,7 +376,7 @@ def tree():
     <g transform="translate(600 478) scale(.84) translate(-600 -478)"><g>
       <animateTransform attributeName="transform" type="rotate" values="0 600 470;.6 600 470;0 600 470;-.5 600 470;0 600 470" dur="10s" repeatCount="indefinite"/>
       {''.join(f'<path d="{d}" fill="none" stroke="url(#bark)" stroke-width="{w:.1f}" stroke-linecap="round"/>' for d, w in branches)}
-      <ellipse cx="600" cy="170" rx="360" ry="130" fill="#a6b8f4" opacity=".22" filter="url(#bloom)"/>
+      <ellipse cx="600" cy="170" rx="360" ry="130" fill="#8fc8ff" opacity=".22" filter="url(#bloom)"/>
       {''.join(canopy)}
       {''.join(flowers)}
     </g></g>
@@ -393,8 +393,8 @@ def tree():
 def divider():
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 44" width="800" height="44">
   <defs>
-    <linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#6a86e8" stop-opacity="0"/><stop offset="1" stop-color="#6a86e8"/></linearGradient>
-    <linearGradient id="r" x1="1" x2="0"><stop offset="0" stop-color="#6a86e8" stop-opacity="0"/><stop offset="1" stop-color="#6a86e8"/></linearGradient>
+    <linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#38bdf8" stop-opacity="0"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+    <linearGradient id="r" x1="1" x2="0"><stop offset="0" stop-color="#6366f1" stop-opacity="0"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
     {petal_defs()}
   </defs>
   <rect x="120" y="21.5" width="240" height="1.4" fill="url(#l)"/>
@@ -402,7 +402,7 @@ def divider():
   <use href="#petal" fill="#9baef1" transform="translate(372 22) rotate(-90) scale(.55)"/>
   <use href="#petal" fill="#9baef1" transform="translate(428 22) rotate(90) scale(.55)"/>
   <g transform="translate(400 22)">
-    <use href="#flower" fill="#a6b8f4" transform="scale(.95)">
+    <use href="#flower" fill="#8fc8ff" transform="scale(.95)">
       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite" additive="sum"/>
     </use>
   </g>
@@ -429,10 +429,10 @@ def titles():
     for key, (pt, jp) in SECTIONS.items():
         svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 110" width="800" height="110" role="img" aria-label="{escape(pt)}">
   <defs>
-    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#5776d9"/><stop offset=".5" stop-color="#7e98ee"/><stop offset="1" stop-color="#6b94d6"/></linearGradient>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#22c8f5"/><stop offset=".5" stop-color="#4d8dff"/><stop offset="1" stop-color="#7a6bff"/></linearGradient>
     {petal_defs()}
   </defs>
-  <text x="400" y="88" text-anchor="middle" font-family="{JP}" font-size="84" fill="#6a86e8" opacity=".13">{jp}</text>
+  <text x="400" y="88" text-anchor="middle" font-family="{JP}" font-size="84" fill="#4d8dff" opacity=".13">{jp}</text>
   <text x="400" y="62" text-anchor="middle" font-family="{SERIF}" font-size="40" font-weight="600" letter-spacing="3" fill="url(#g)">{escape(pt)}</text>
   <use href="#flower" fill="#9baef1" transform="translate({400 - 30 - len(pt) * 11.5} 50) scale(.55)"/>
   <use href="#flower" fill="#9baef1" transform="translate({400 + 30 + len(pt) * 11.5} 50) scale(.55)"/>
@@ -444,19 +444,19 @@ def titles():
 
 # --------------------------------------------------------------------------- terminal
 def terminal():
-    P = '<tspan fill="#aabbf7">diego</tspan><tspan fill="#8b949e">@</tspan><tspan fill="#a6c8f2">sakura</tspan><tspan fill="#8b949e">:~$ </tspan>'
+    P = '<tspan fill="#8fc8ff">diego</tspan><tspan fill="#8b949e">@</tspan><tspan fill="#a6c8f2">sakura</tspan><tspan fill="#8b949e">:~$ </tspan>'
     lines = [
         (P + '<tspan fill="#e6edf3">whoami</tspan>', 0.6),
         ('<tspan fill="#d6dfff" font-weight="700">Diego S. Souza</tspan><tspan fill="#8b949e"> — desenvolvedor full stack · Brasil</tspan>', 0.3),
         ("", 0),
         (P + '<tspan fill="#e6edf3">cat sobre.txt</tspan>', 0.6),
-        ('<tspan fill="#6a86e8">❀ </tspan><tspan fill="#e6edf3">Construo sistemas web de ponta a ponta: API, banco de dados e interface</tspan>', 0.5),
-        ('<tspan fill="#6a86e8">❀ </tspan><tspan fill="#e6edf3">Faço sistemas de gestão de verdade — vendas, estoque, e-commerce</tspan>', 0.5),
-        ('<tspan fill="#6a86e8">❀ </tspan><tspan fill="#e6edf3">Estudo IA aplicada: GANs, dados sintéticos e PyTorch</tspan>', 0.5),
-        ('<tspan fill="#6a86e8">❀ </tspan><tspan fill="#e6edf3">Guardo tudo que aprendo num cofre do Obsidian (segundo cérebro)</tspan>', 0.5),
+        ('<tspan fill="#4d8dff">❀ </tspan><tspan fill="#e6edf3">Construo sistemas web de ponta a ponta: API, banco de dados e interface</tspan>', 0.5),
+        ('<tspan fill="#4d8dff">❀ </tspan><tspan fill="#e6edf3">Faço sistemas de gestão de verdade — vendas, estoque, e-commerce</tspan>', 0.5),
+        ('<tspan fill="#4d8dff">❀ </tspan><tspan fill="#e6edf3">Estudo IA aplicada: GANs, dados sintéticos e PyTorch</tspan>', 0.5),
+        ('<tspan fill="#4d8dff">❀ </tspan><tspan fill="#e6edf3">Guardo tudo que aprendo num cofre do Obsidian (segundo cérebro)</tspan>', 0.5),
         ("", 0),
         (P + '<tspan fill="#e6edf3">echo $LEMA</tspan>', 0.6),
-        ('<tspan fill="#a5d6ff">"Supere quem você foi ontem."</tspan><tspan fill="#aabbf7" font-family="' + JP.replace("'", "&apos;") + '">  昨日の自分を超える</tspan>', 0.4),
+        ('<tspan fill="#a5d6ff">"Supere quem você foi ontem."</tspan><tspan fill="#8fc8ff" font-family="' + JP.replace("'", "&apos;") + '">  昨日の自分を超える</tspan>', 0.4),
     ]
     W, top, lh = 880, 74, 26
     H = top + lh * len(lines) + 46
@@ -476,7 +476,7 @@ def terminal():
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Sobre mim">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#101f30"/></linearGradient>
-    <linearGradient id="bd" x1="0" x2="1"><stop offset="0" stop-color="#6a86e8"/><stop offset="1" stop-color="#6b9bd6"/></linearGradient>
+    <linearGradient id="bd" x1="0" x2="1"><stop offset="0" stop-color="#22c8f5"/><stop offset=".5" stop-color="#4d8dff"/><stop offset="1" stop-color="#7a6bff"/></linearGradient>
   </defs>
   <rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="14" fill="url(#bg)" stroke="url(#bd)" stroke-opacity=".7"/>
   <path d="M1 15 Q1 1 15 1 L{W - 15} 1 Q{W - 1} 1 {W - 1} 15 L{W - 1} 40 L1 40 Z" fill="#161b22"/>
@@ -486,7 +486,7 @@ def terminal():
     {''.join(body)}
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="{t:.1f}s" dur=".01s" fill="freeze"/>
       <text x="32" y="{cy}">{P}</text>
-      <rect x="{32 + 16 * 9.35:.0f}" y="{cy - 15}" width="9" height="19" fill="#aabbf7">
+      <rect x="{32 + 16 * 9.35:.0f}" y="{cy - 15}" width="9" height="19" fill="#8fc8ff">
         <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1s" repeatCount="indefinite"/>
       </rect>
     </g>
@@ -508,7 +508,7 @@ def card(slug, title, jp, desc_lines, tags, lang, icon):
     for tg in tags:
         w = len(tg) * 7.4 + 20
         tag_svg.append(
-            f'<rect x="{x:.0f}" y="138" width="{w:.0f}" height="24" rx="12" fill="#6a86e8" fill-opacity=".13" stroke="#6a86e8" stroke-opacity=".45"/>'
+            f'<rect x="{x:.0f}" y="138" width="{w:.0f}" height="24" rx="12" fill="#4d8dff" fill-opacity=".13" stroke="#4d8dff" stroke-opacity=".45"/>'
             f'<text x="{x + w / 2:.0f}" y="154.5" text-anchor="middle" font-size="12" fill="#c2d0ff">{escape(tg)}</text>'
         )
         x += w + 8
@@ -518,11 +518,11 @@ def card(slug, title, jp, desc_lines, tags, lang, icon):
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="{escape(title)}">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#122233"/></linearGradient>
-    <linearGradient id="bd" x1="0" x2="1"><stop offset="0" stop-color="#6a86e8"/><stop offset="1" stop-color="#6b9bd6"/></linearGradient>
+    <linearGradient id="bd" x1="0" x2="1"><stop offset="0" stop-color="#22c8f5"/><stop offset=".5" stop-color="#4d8dff"/><stop offset="1" stop-color="#7a6bff"/></linearGradient>
     {petal_defs()}
   </defs>
   <rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="14" fill="url(#bg)" stroke="url(#bd)" stroke-opacity=".75"/>
-  <text x="{W - 20}" y="{H - 22}" text-anchor="end" font-family="{JP}" font-size="64" fill="#6a86e8" opacity=".08">{jp}</text>
+  <text x="{W - 20}" y="{H - 22}" text-anchor="end" font-family="{JP}" font-size="64" fill="#4d8dff" opacity=".08">{jp}</text>
   <use href="#flower" fill="#9baef1" opacity=".9" transform="translate({W - 30} 30) scale(.75)">
     <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite" additive="sum"/>
   </use>
