@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/Di20232">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2200&pause=900&color=38BDF8&center=true&vCenter=true&width=900&lines=%24+whoami+%E2%86%92+Diego+S.+Souza;Desenvolvedor+Full+Stack;Python+%E2%80%A2+JavaScript+%E2%80%A2+TypeScript;FastAPI+%2B+React+%2B+Node.js;IA+Aplicada+%E2%80%A2+GANs+%E2%80%A2+Dados+Sint%C3%A9ticos;Seguran%C3%A7a+Web+%E2%80%A2+Nunca+Pare+de+Aprender" alt="Desenvolvedor Full Stack · Python · IA · Segurança">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2200&pause=900&color=38BDF8&center=true&vCenter=true&width=900&lines=%24+whoami+%E2%86%92+Diego+S.+Souza;Desenvolvedor+Full+Stack;Python+%E2%80%A2+PHP+%E2%80%A2+HTML5+%E2%80%A2+CSS3;Vite+%2B+PostgreSQL+%2B+MySQL+%2B+SQLite;IA+Aplicada+%E2%80%A2+Claude+%E2%80%A2+ChatGPT;Seguran%C3%A7a+Web+%E2%80%A2+Nunca+Pare+de+Aprender" alt="Desenvolvedor Full Stack · Python · IA · Segurança">
   </a>
 </p>
 
@@ -33,11 +33,12 @@
 ```text
 foco/
 ├─ Desenvolvimento Full Stack
-├─ APIs com FastAPI e Node.js
-├─ Front-end com React + TypeScript
+├─ Back-end com Python e PHP
+├─ Front-end com HTML5, CSS3 e Vite
 ├─ Sistemas de Gestão (vendas, estoque, e-commerce)
 ├─ Bancos de Dados (PostgreSQL, MySQL, SQLite)
 ├─ Inteligência Artificial Aplicada
+├─ Desenvolvimento com IA (Claude e ChatGPT)
 ├─ GANs e Dados Sintéticos
 └─ Segurança Web
 ```
@@ -47,7 +48,9 @@ foco/
 <p align="center"><img src="./assets/title-tech.svg" width="70%" alt="Stack"></p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,html,css,php,vite,postgres,mysql,sqlite,git,github,vscode&theme=dark" alt="Python, HTML5, CSS3, PHP, Vite, PostgreSQL, MySQL, SQLite, Git, GitHub, VS Code"><img src="./assets/icon-claude.svg" height="48" alt="Claude"><img src="./assets/icon-chatgpt.svg" height="48" alt="ChatGPT">
+  <img src="https://skillicons.dev/icons?i=py,html,css,php,vite,postgres,mysql,sqlite,git,github,vscode&theme=dark" alt="Python, HTML5, CSS3, PHP, Vite, PostgreSQL, MySQL, SQLite, Git, GitHub, VS Code"><br><br>
+  <img src="./assets/icon-claude.svg" height="48" alt="Claude"><img src="./assets/icon-chatgpt.svg" height="48" alt="ChatGPT"><img src="./assets/icon-openrouter.svg" height="48" alt="OpenRouter"><img src="./assets/icon-omniroute.svg" height="48" alt="OmniRoute"><img src="./assets/icon-9router.svg" height="48" alt="9Router"><br>
+  <sub><code>IA: Claude · ChatGPT · OpenRouter · OmniRoute · 9Router</code></sub>
 </p>
 
 <p align="center"><img src="./assets/divider.svg" width="60%"></p>
@@ -55,8 +58,8 @@ foco/
 <p align="center"><img src="./assets/title-projetos.svg" width="70%" alt="Projetos"></p>
 
 <p align="center">
-  <a href="https://github.com/Di20232/byteShop"><img src="./assets/card-byteShop.svg" width="49%" alt="ByteShop — e-commerce de peças de PC (FastAPI, React, TypeScript)"></a>
-  <a href="https://github.com/Di20232/mercadinho-seu-joao-2"><img src="./assets/card-mercadinho-seu-joao-2.svg" width="49%" alt="Contro Vend — vendas e estoque para pequeno comércio (Node.js, Express, PostgreSQL)"></a>
+  <a href="https://github.com/Di20232/byteShop"><img src="./assets/card-byteShop.svg" width="49%" alt="ByteShop — e-commerce de peças de PC (Python, Vite, SQLite)"></a>
+  <a href="https://github.com/Di20232/mercadinho-seu-joao-2"><img src="./assets/card-mercadinho-seu-joao-2.svg" width="49%" alt="Contro Vend — vendas e estoque para pequeno comércio (JavaScript, HTML5, CSS3, PostgreSQL)"></a>
   <a href="https://github.com/Di20232/obsidian_v1"><img src="./assets/card-obsidian_v1.svg" width="49%" alt="Cofre Obsidian — segundo cérebro de estudos"></a>
   <a href="https://github.com/Di20232/exercises_python"><img src="./assets/card-exercises_python.svg" width="49%" alt="Exercícios Python — duas versões de cada exercício"></a>
 </p>
@@ -66,7 +69,7 @@ foco/
 <p align="center"><img src="./assets/title-rede.svg" width="70%" alt="Rede"></p>
 
 <p align="center">
-  <img src="./assets/rede.svg" width="95%" alt="Rede animada ligando API, banco de dados, interface, IA, GANs, Docker e outras tecnologias que uso">
+  <img src="./assets/rede.svg" width="95%" alt="Rede animada ligando Python, PHP, HTML5, CSS3, Vite, bancos de dados, Git, GitHub, VS Code, Claude, ChatGPT, OpenRouter, OmniRoute e 9Router">
 </p>
 
 <p align="center"><img src="./assets/divider.svg" width="60%"></p>
@@ -105,11 +108,11 @@ foco/
 ```text
 em_estudo/
 ├─ Estruturas de Dados & Algoritmos
-├─ Machine Learning com PyTorch
+├─ Machine Learning com Python
 ├─ Redes Generativas (GANs)
 ├─ Arquitetura de Software
 ├─ Segurança de Aplicações Web
-└─ Docker & Deploy na Nuvem
+└─ Git, GitHub & Deploy na Nuvem
 ```
 
 <p align="center"><img src="./assets/divider.svg" width="60%"></p>
