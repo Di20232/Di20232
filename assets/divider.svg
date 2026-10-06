@@ -1,22 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 44" width="800" height="44">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 36" width="800" height="36">
   <defs>
-    <linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#38bdf8" stop-opacity="0"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
-    <linearGradient id="r" x1="1" x2="0"><stop offset="0" stop-color="#6366f1" stop-opacity="0"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
-    
-    <path id="petal" d="M0 10 C-7 4 -8 -4 -3 -9 L0 -6 L3 -9 C8 -4 7 4 0 10Z"/>
-    <g id="flower">
-      <use href="#petal" transform="rotate(0) translate(0 -9)"/><use href="#petal" transform="rotate(72) translate(0 -9)"/><use href="#petal" transform="rotate(144) translate(0 -9)"/><use href="#petal" transform="rotate(216) translate(0 -9)"/><use href="#petal" transform="rotate(288) translate(0 -9)"/>
-      <circle r="3.2" fill="#f3f6ff"/>
-      <circle r="1.6" fill="#4d8dff"/>
-    </g>
+    <linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset=".25" stop-color="#22d3ee"/><stop offset=".6" stop-color="#3b82f6"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></linearGradient>
+    <filter id="gl" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3"/></filter>
   </defs>
-  <rect x="120" y="21.5" width="240" height="1.4" fill="url(#l)"/>
-  <rect x="440" y="21.5" width="240" height="1.4" fill="url(#r)"/>
-  <use href="#petal" fill="#9baef1" transform="translate(372 22) rotate(-90) scale(.55)"/>
-  <use href="#petal" fill="#9baef1" transform="translate(428 22) rotate(90) scale(.55)"/>
-  <g transform="translate(400 22)">
-    <use href="#flower" fill="#8fc8ff" transform="scale(.95)">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite" additive="sum"/>
-    </use>
-  </g>
+  <rect x="40" y="17.2" width="720" height="1.6" fill="url(#l)"/>
+  <g fill="none" stroke="#38bdf8" stroke-opacity=".7"><circle cx="160" cy="18" r="4"/><circle cx="640" cy="18" r="4"/></g>
+  <path d="M400 8 L410 18 L400 28 L390 18Z" fill="none" stroke="#3b82f6" stroke-width="1.6"/>
+  <circle cx="400" cy="18" r="2.6" fill="#e0f7ff"/>
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="9" fill="#3b82f6" opacity=".7"><text x="300" y="14" text-anchor="end">0101</text><text x="500" y="14">1010</text></g>
+  <circle r="3.2" cy="18" fill="#e0f7ff"><animate attributeName="cx" values="60;740" dur="4s" repeatCount="indefinite"/></circle>
+  <circle r="7" cy="18" fill="#22d3ee" opacity=".55" filter="url(#gl)"><animate attributeName="cx" values="60;740" dur="4s" repeatCount="indefinite"/></circle>
 </svg>
