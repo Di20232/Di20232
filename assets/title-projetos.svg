@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 110" width="800" height="110" role="img" aria-label="Projetos">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#d9578a"/><stop offset=".5" stop-color="#ee7ea6"/><stop offset="1" stop-color="#c06bd6"/></linearGradient>
+    
+    <path id="petal" d="M0 10 C-7 4 -8 -4 -3 -9 L0 -6 L3 -9 C8 -4 7 4 0 10Z"/>
+    <g id="flower">
+      <use href="#petal" transform="rotate(0) translate(0 -9)"/><use href="#petal" transform="rotate(72) translate(0 -9)"/><use href="#petal" transform="rotate(144) translate(0 -9)"/><use href="#petal" transform="rotate(216) translate(0 -9)"/><use href="#petal" transform="rotate(288) translate(0 -9)"/>
+      <circle r="3.2" fill="#fff3f7"/>
+      <circle r="1.6" fill="#e86a92"/>
+    </g>
+  </defs>
+  <text x="400" y="88" text-anchor="middle" font-family="'Noto Serif JP', 'Yu Mincho', 'Hiragino Mincho ProN', 'IPAMincho', 'Noto Sans JP', 'IPAGothic', serif" font-size="84" fill="#e86a92" opacity=".13">作品</text>
+  <text x="400" y="62" text-anchor="middle" font-family="'Cormorant Garamond', 'Playfair Display', Georgia, 'Times New Roman', serif" font-size="40" font-weight="600" letter-spacing="3" fill="url(#g)">Projetos</text>
+  <use href="#flower" fill="#f19bb6" transform="translate(278.0 50) scale(.55)"/>
+  <use href="#flower" fill="#f19bb6" transform="translate(522.0 50) scale(.55)"/>
+  <text x="400" y="96" text-anchor="middle" font-family="'Noto Serif JP', 'Yu Mincho', 'Hiragino Mincho ProN', 'IPAMincho', 'Noto Sans JP', 'IPAGothic', serif" font-size="15" letter-spacing="8" fill="#c86b92">作品</text>
+</svg>
